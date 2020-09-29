@@ -1,0 +1,8 @@
+#Add new user
+-X Get localhost:3306/
+curl -i -H "Content-Type: UserForm /json" -X POST -d'{
+"name":"Anjal Malla",
+"email":"anjal@gmail.com",
+"password":"Amalla",
+"address":"NewYork"
+}' localhost:3306/User
